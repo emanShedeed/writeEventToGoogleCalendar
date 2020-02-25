@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673E7AA17F98FCA8BDCB85FF /* Pods_PrayerMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1AAC8FDC32641284F33D08 /* Pods_PrayerMate.framework */; };
 		BDAA26CB2404F3A80064C8D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA26CA2404F3A80064C8D4 /* AppDelegate.swift */; };
 		BDAA26CD2404F3A80064C8D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA26CC2404F3A80064C8D4 /* SceneDelegate.swift */; };
 		BDAA26CF2404F3A80064C8D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA26CE2404F3A80064C8D4 /* ViewController.swift */; };
 		BDAA26D22404F3A80064C8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA26D02404F3A80064C8D4 /* Main.storyboard */; };
 		BDAA26D42404F3A90064C8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA26D32404F3A90064C8D4 /* Assets.xcassets */; };
 		BDAA26D72404F3A90064C8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA26D52404F3A90064C8D4 /* LaunchScreen.storyboard */; };
+		BDAA26E32405416B0064C8D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAA26E22405416B0064C8D4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E1AAC8FDC32641284F33D08 /* Pods_PrayerMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrayerMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F20701864EACE850C8951F /* Pods-PrayerMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayerMate.release.xcconfig"; path = "Target Support Files/Pods-PrayerMate/Pods-PrayerMate.release.xcconfig"; sourceTree = "<group>"; };
+		B9165590C6B8B564D385D5DC /* Pods-PrayerMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrayerMate.debug.xcconfig"; path = "Target Support Files/Pods-PrayerMate/Pods-PrayerMate.debug.xcconfig"; sourceTree = "<group>"; };
 		BDAA26C72404F3A80064C8D4 /* PrayerMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAA26CA2404F3A80064C8D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDAA26CC2404F3A80064C8D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		BDAA26D32404F3A90064C8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDAA26D62404F3A90064C8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDAA26D82404F3A90064C8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA26E22405416B0064C8D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673E7AA17F98FCA8BDCB85FF /* Pods_PrayerMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				BDAA26C92404F3A80064C8D4 /* PrayerMate */,
 				BDAA26C82404F3A80064C8D4 /* Products */,
+				D81FA761D7CC63B71CE87CE0 /* Pods */,
+				C7827DD965501B07B1947142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				BDAA26D32404F3A90064C8D4 /* Assets.xcassets */,
 				BDAA26D52404F3A90064C8D4 /* LaunchScreen.storyboard */,
 				BDAA26D82404F3A90064C8D4 /* Info.plist */,
+				BDAA26E22405416B0064C8D4 /* GoogleService-Info.plist */,
 			);
 			path = PrayerMate;
+			sourceTree = "<group>";
+		};
+		C7827DD965501B07B1947142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E1AAC8FDC32641284F33D08 /* Pods_PrayerMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D81FA761D7CC63B71CE87CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9165590C6B8B564D385D5DC /* Pods-PrayerMate.debug.xcconfig */,
+				99F20701864EACE850C8951F /* Pods-PrayerMate.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDAA26DB2404F3A90064C8D4 /* Build configuration list for PBXNativeTarget "PrayerMate" */;
 			buildPhases = (
+				C6A1D35E14AEF60C583EBC59 /* [CP] Check Pods Manifest.lock */,
 				BDAA26C32404F3A80064C8D4 /* Sources */,
 				BDAA26C42404F3A80064C8D4 /* Frameworks */,
 				BDAA26C52404F3A80064C8D4 /* Resources */,
+				336388DE84B814DDCC6139A1 /* [CP] Embed Pods Frameworks */,
+				F8246103EF4F139BDAF04CB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,11 +157,71 @@
 			files = (
 				BDAA26D72404F3A90064C8D4 /* LaunchScreen.storyboard in Resources */,
 				BDAA26D42404F3A90064C8D4 /* Assets.xcassets in Resources */,
+				BDAA26E32405416B0064C8D4 /* GoogleService-Info.plist in Resources */,
 				BDAA26D22404F3A80064C8D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		336388DE84B814DDCC6139A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrayerMate/Pods-PrayerMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrayerMate/Pods-PrayerMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrayerMate/Pods-PrayerMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A1D35E14AEF60C583EBC59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrayerMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8246103EF4F139BDAF04CB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrayerMate/Pods-PrayerMate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrayerMate/Pods-PrayerMate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrayerMate/Pods-PrayerMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDAA26C32404F3A80064C8D4 /* Sources */ = {
@@ -282,6 +372,7 @@
 		};
 		BDAA26DC2404F3A90064C8D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9165590C6B8B564D385D5DC /* Pods-PrayerMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +390,7 @@
 		};
 		BDAA26DD2404F3A90064C8D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F20701864EACE850C8951F /* Pods-PrayerMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
